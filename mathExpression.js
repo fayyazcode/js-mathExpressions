@@ -149,10 +149,126 @@
 
 
 //Q13
-var fav="charryballs";
-var currentAge=22;
-var maxAge=80;
-var snakePerDay=2;
+// var fav="charryballs";
+// var currentAge=22;
+// var maxAge=80;
+// var snakePerDay=2;
 
-var totalRIP=(maxAge-currentAge)*snakePerDay*365;
-document.write("snaks for life time "+totalRIP)
+// var totalRIP=(maxAge-currentAge)*snakePerDay*365;
+// document.write("snaks for life time "+totalRIP)
+
+
+
+//chapter 6 to 9
+
+    // Q1
+     
+    // var number=10;
+
+    //     ++number;
+    //     //now number is 11 by pre increment
+      
+    //     number++;
+    //     //now number is 12 after post increment
+
+    //     //decrement
+    //     --number;
+
+    //     number--;
+
+    //     document.write(number);
+
+
+
+
+
+
+
+    //Q2********************
+
+
+
+
+
+
+
+// //  What will be the output in variables a, b & result after
+// // execution of the following script:
+// // var a = 2, b = 1;
+// // var result = --a - --b + ++b + b--;
+// // Explain the output at each stage:
+// // --a;
+// // --a - --b;
+// // --a - --b + ++b;
+// // --a - --b + ++b + b--;
+
+// //Result
+// //  result=4;
+// //first stage
+// //pre decrement value of a is 1
+
+// //second stage value of a (1) - value of b(0) result 1
+
+// //third stage 1 +2 =3
+
+// //4th stage 3+1 =4; the last valu of b is not decreased because its post decrement
+
+
+// document.write("a is 1")
+
+// document.write("b is 0")
+
+// document.write("result is 4")
+
+
+
+
+
+//Q3*************************
+
+
+
+// var name =prompt("Enter your name");
+// alert("Hello "+name)
+
+
+
+
+
+
+
+//Q5************************
+
+
+// var number=+prompt("Enter Number");
+// document.write("Table of ",number);
+// for (var a=1; a<=10;a++){
+// if(number===NaN){
+//    number=5;  
+// }
+
+
+//     var result = a * number; 
+//     document.write("<br />",number," *",a," = ",result);
+// }
+
+
+
+//Q6***************
+var one=prompt("Enter Subject name")
+var two=prompt("Enter Subject name")
+var three=prompt("Enter Subject name")
+var tMarksOne=100;
+var tMarksTwo=100;
+var tMarksThree=100;
+
+var ObtainOne=prompt("Enter marks Obtain in"+one)
+var ObtainTwo=prompt("Enter marks Obtain in"+two)
+var ObtainThree=prompt("Enter marks Obtain in"+three)
+var percentOne=(ObtainOne/tMarksOne)*100;
+var percentTwo=(ObtainTwo/tMarksTwo)*100;
+var percentThree=(ObtainThree/tMarksThree)*100;
+document.write("<tr> <td>Subject </td> <td> Total Marks</td> <td> Obtain Marks </td> <td> Percentage </td></tr> <br>")
+document.write("<tr>","<td>",one,"</td> "," <td> ",tMarksOne," </td> "," <td> ",ObtainOne," </td> "," <td> ",percentOne," </td>","</tr>")
+document.write("<tr>","<td>",two,"</td> "," <td> ",tMarksTwo," </td> "," <td> ",ObtainTwo," </td> "," <td> ",percentTwo," </td>","</tr>")
+document.write("<tr>","<td>",three,"</td> "," <td> ",tMarksThree," </td> "," <td> ",ObtainThree," </td> "," <td> ",percentThree," </td>","</tr>")

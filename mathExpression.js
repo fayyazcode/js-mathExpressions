@@ -255,20 +255,25 @@
 
 
 //Q6***************
-var one=prompt("Enter Subject name")
-var two=prompt("Enter Subject name")
-var three=prompt("Enter Subject name")
-var tMarksOne=100;
-var tMarksTwo=100;
-var tMarksThree=100;
+// var one=prompt("Enter Subject name")
+// var two=prompt("Enter Subject name")
+// var three=prompt("Enter Subject name")
+// var tMarksOne=100;
+// var tMarksTwo=100;
+// var tMarksThree=100;
 
-var ObtainOne=prompt("Enter marks Obtain in"+one)
-var ObtainTwo=prompt("Enter marks Obtain in"+two)
-var ObtainThree=prompt("Enter marks Obtain in"+three)
-var percentOne=(ObtainOne/tMarksOne)*100;
-var percentTwo=(ObtainTwo/tMarksTwo)*100;
-var percentThree=(ObtainThree/tMarksThree)*100;
-document.write("<tr> <td>Subject </td> <td> Total Marks</td> <td> Obtain Marks </td> <td> Percentage </td></tr> <br>")
-document.write("<tr>","<td>",one,"</td> "," <td> ",tMarksOne," </td> "," <td> ",ObtainOne," </td> "," <td> ",percentOne," </td>","</tr>")
-document.write("<tr>","<td>",two,"</td> "," <td> ",tMarksTwo," </td> "," <td> ",ObtainTwo," </td> "," <td> ",percentTwo," </td>","</tr>")
-document.write("<tr>","<td>",three,"</td> "," <td> ",tMarksThree," </td> "," <td> ",ObtainThree," </td> "," <td> ",percentThree," </td>","</tr>")
+// var ObtainOne=prompt("Enter marks Obtain in"+one)
+// var ObtainTwo=prompt("Enter marks Obtain in"+two)
+// var ObtainThree=prompt("Enter marks Obtain in"+three)
+// var percentOne=(ObtainOne/tMarksOne)*100;
+// var percentTwo=(ObtainTwo/tMarksTwo)*100;
+// var percentThree=(ObtainThree/tMarksThree)*100;
+// document.write("<tr> <td>Subject </td> <td> Total Marks</td> <td> Obtain Marks </td> <td> Percentage </td></tr> <br>")
+// document.write("<tr>","<td>",one,"</td> "," <td> ",tMarksOne," </td> "," <td> ",ObtainOne," </td> "," <td> ",percentOne," </td>","</tr>")
+// document.write("<tr>","<td>",two,"</td> "," <td> ",tMarksTwo," </td> "," <td> ",ObtainTwo," </td> "," <td> ",percentTwo," </td>","</tr>")
+// document.write("<tr>","<td>",three,"</td> "," <td> ",tMarksThree," </td> "," <td> ",ObtainThree," </td> "," <td> ",percentThree," </td>","</tr>")
+
+
+
+
+
